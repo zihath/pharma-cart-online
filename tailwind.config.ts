@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				pharma: {
-					'primary': '#1e88e5',
-					'secondary': '#4caf50',
-					'accent': '#f5f5f5',
-					'light': '#e3f2fd',
-					'dark': '#0d47a1',
+					'primary': '#9b87f5',   // Changed from blue to purple
+					'secondary': '#7E69AB', // Changed to secondary purple
+					'accent': '#E5DEFF',    // Changed to soft purple
+					'light': '#F1F0FB',     // Changed to soft gray
+					'dark': '#6E59A5',      // Changed to tertiary purple
 				}
 			},
 			borderRadius: {
