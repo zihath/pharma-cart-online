@@ -34,7 +34,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             </div>
           )}
           {product.featured && (
-            <div className="absolute top-2 left-2 bg-pharma-secondary text-white text-xs font-medium px-2 py-1 rounded">
+            <div className="absolute top-2 left-2 bg-tele-secondary text-white text-xs font-medium px-2 py-1 rounded">
               Featured
             </div>
           )}
@@ -59,7 +59,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           
           <div className="mt-3">
             <Button
-              className="w-full bg-pharma-primary hover:bg-pharma-dark"
+              className="w-full bg-tele-primary hover:bg-tele-dark"
               onClick={handleAddToCart}
               disabled={!product.inStock}
             >

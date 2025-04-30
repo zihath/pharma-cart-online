@@ -18,7 +18,7 @@ const CategoryFilter = ({ selectedCategory, onSelectCategory }: CategoryFilterPr
           onClick={() => onSelectCategory('All')}
           className={`px-4 py-2 rounded-full text-sm ${
             selectedCategory === 'All'
-              ? 'bg-pharma-primary text-white'
+              ? 'bg-tele-primary text-white'
               : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
           }`}
         >
@@ -31,7 +31,7 @@ const CategoryFilter = ({ selectedCategory, onSelectCategory }: CategoryFilterPr
             onClick={() => onSelectCategory(category)}
             className={`px-4 py-2 rounded-full text-sm ${
               selectedCategory === category
-                ? 'bg-pharma-primary text-white'
+                ? 'bg-tele-primary text-white'
                 : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
             }`}
           >
