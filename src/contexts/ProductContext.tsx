@@ -1,6 +1,6 @@
 
 import React, { createContext, useContext, useEffect, useState } from 'react';
-
+import pulse from '../images/pulse.jpg'
 // Product interfaces
 export interface Product {
   id: string;
@@ -69,7 +69,7 @@ const sampleProducts: Product[] = [
     description: "Fast-acting pain relief for headaches, muscle pain, and fever. Each tablet contains 500mg of paracetamol.",
     price: 8.99,
     category: "Pain Relief",
-    image: "https://images.unsplash.com/photo-1584308666999-b85ba069e341?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    image: "https://imgs.search.brave.com/FVqEHguxReXlfTk4sXyjrrXrnmIeDd1UyJdKnoXpCCg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pNS53/YWxtYXJ0aW1hZ2Vz/LmNvbS9zZW8vRXF1/YXRlLUV4dHJhLVN0/cmVuZ3RoLUFjZXRh/bWlub3BoZW4tUGFp/bi1SZWxpZXZlci1G/ZXZlci1SZWR1Y2Vy/LUNhcGxldHMtNTAw/LW1nLTEwMC1Db3Vu/dF9jNGJlZGRkMi1k/YjJlLTRkNzctODZi/ZS01MWJjZmU1OGJj/MjQuNzAwMWI1ODEz/ODQwNjI5MzI4NDZj/NGY2ODk1NzE0NzAu/anBlZz9vZG5IZWln/aHQ9NTc2Jm9kbldp/ZHRoPTU3NiZvZG5C/Zz1GRkZGRkY",
     inStock: true,
     featured: true,
     rating: 4.7,
@@ -93,7 +93,7 @@ const sampleProducts: Product[] = [
     description: "Kills 99.9% of germs without water. Alcohol-based formula with moisturizer to prevent dry skin.",
     price: 4.50,
     category: "Personal Care",
-    image: "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    image: "https://imgs.search.brave.com/HOn_zZckk0w4bE0XLFT04dMzkpA_62OU30lBmrrzYwQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM3/MjM1MDI3OC9waG90/by9oYW5kLXNhbml0/aXplci5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9V1ZHMzRx/TjNfUnhkNWpib3JM/SlI3bVBMOV9EYVls/TC1uaERvR3A4X0Fu/ND0",
     inStock: true,
     featured: true,
     rating: 4.6,
@@ -165,7 +165,7 @@ const sampleProducts: Product[] = [
     description: "Measures blood oxygen saturation levels and pulse rate. Easy to read LED display with one-button operation.",
     price: 29.99,
     category: "Medical Devices",
-    image: "https://images.unsplash.com/photo-1584473454583-5b7c71ce7217?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    image: pulse,
     inStock: true,
     featured: true,
     rating: 4.7,

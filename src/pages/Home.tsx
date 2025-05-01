@@ -19,7 +19,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gray-900">
-                Your Health, Our Priority
+                Cure at your Doorstep
               </h1>
               <p className="text-xl mb-6 text-gray-700">
                 Experience reliable medicine delivery with PharmaCart. 
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+                src="https://imgs.search.brave.com/b19EW2_qn8qErnxu_5rMNKmCWpv9oGtoZiuyD9EQLvs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzkyLzQ2Lzgx/LzM2MF9GXzY5MjQ2/ODE3M184aG82U1Ru/blVBUW8ydm5YR0l3/eTV0WEIybzNzVEhK/dC5qcGc" 
                 alt="Pharmacy products" 
                 className="rounded-lg shadow-lg"
               />
